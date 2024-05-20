@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+</head>
+
+<body>
+    <div>
+        <center>Today i'll learn how to create and use html forms. I also need to revise and revisit what I've learnt
+            till
+            now for which i'll use w3schools and my previously created html files and from today onwards i'll start
+            creating notepad files to keep notes of some
+            importatnt points that i'll learn on each day.</center>
+    </div>
+    <div>
+        <h4>some attributes of form tags are type, id, name, value.(use all these tags for radio buttons and
+            checboxes but if u use value attribute for text type input tag then the value will be displayed instead
+            of space for entry.</h4>
+        <form action="post.php" method="post">
+            <div><label for="fname">first name</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lname" required><br>
+                What language do you like<br>
+                <input type="radio" id="html" name="favlang" value="html">
+                <label for="html">html</label><br>
+                <input type="radio" id="css" name="favlang" value="css">
+                <label for="css">css</label><br>
+                <input type="radio" id="js" name="favlang" value="js">
+                <label for="js">js</label><br>
+            </div>
+            <div>
+                what is your favcar?<br>
+                <input type="checkbox" id="supra" name="car" value="supra">
+                <label for="supra">supra</label><br>
+                <input type="checkbox" id="koenigsegg" name="car" value="koenigegg">
+                <label for="koenigsegg">koenigegg</label><br>
+                <input type="checkbox" id="alto" name="car" value="alto">
+                <label for="alto">alto</label>
+            </div>
+            <input type="submit"><br>
+            <label for="comment">enter your comment here...</label>
+            <textarea name="comment" rows="10" cols="50">
+            </textarea>
+            <label for="fruit">choose your fav fruit-</label><br>
+            <select name="fruit">
+                <option value="choice">none</option>
+                <option value="apple">apple</option>
+                <option value="cherry">cherry</option>
+                <option value="guava">guava</option>
+            </select>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+
+</html>

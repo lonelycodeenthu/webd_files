@@ -1,0 +1,9 @@
+1.) namespace declarartion for svg files. (also study this blog idk what this is rn but read it. https://developer.mozilla.org/en-US/docs/Web/SVG/Namespaces_Crash_Course )
+
+2.) the namespace declaration to include svg files is while typing the syntax in the img.svg file also include xmlns="http://www.w3.org/2000/svg" as an attribute.
+
+3.) also to embed a youtube video or a complete website use iframes.(use the embed feature of yt videos in the share button to imbed them into your webpage or directly use the url.)
+
+lol i tried to embed w3 schools website but it refused to connect.
+
+4.) What are APIs. read about apis.

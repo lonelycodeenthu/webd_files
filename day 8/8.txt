@@ -1,0 +1,5 @@
+1.) harry vai used css using inspect to stlye the webpage and after realoading the changes disappeared.
+
+ 2.) shift+tab removes one level of indentation.
+
+

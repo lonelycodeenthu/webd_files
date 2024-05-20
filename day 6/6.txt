@@ -1,0 +1,7 @@
+1.) we can give two classes to an element (for eg <div class="class10 class10A" ) by using space beteween the names of two classes.
+
+2.) two elements can't have the same id. they can have the same classes tho.
+
+3.) in css stylesheet use .[class_name]{} for class styling and #[element_id]{} for particular element id styling.
+
+4. )type #[element id] after the url of a website and the browser will take you directly to that element.

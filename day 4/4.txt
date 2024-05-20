@@ -1,0 +1,7 @@
+1.) <a target="_blank" href="https://www.google.com"> GOOGLE </a>
+2.) always use either width or height attribute while using <img> tag it'll help reduce cls(cumulative layout shift) and also check network of a page using inspect
+3.) to view website on different devices also use inspect.
+4.) to see the compressed html file of a webpage use the view source code option available.
+5.) try to not use style attribute rather use style using css (i dont exactly know the reason while we shouldn't use styling within the html element using style attribute)
+
+6.) also use lighthouse option in inspect to check your code efficiency or something like that.

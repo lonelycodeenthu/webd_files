@@ -1,0 +1,20 @@
+1.)what is get request and post request in html or backend?
+
+2.) the value attributes of an html input tag-
+
+The value attribute for <input> element in HTML is used to specify the initial value of the input element. It has different meaning for different input type:
+
+The “button”, “reset” and “submit” property specifies the text on the button.
+The “text”, “password” and “hidden” property specifies the initial value of the input field.
+The “checkbox”, “radio” and “image” property specifies the value associated with the input.
+
+3.) while using label tag if you dont mention the correct id of the radio button then on clicking on label, the radio button will not be selected. (whenever using label for tag always mention the id of the element for which you're using the label).
+
+4.) while using input text tag use placeholeder attribute to print light background text in the given box for inputting text.
+5.) harry vai doesn't recommend using br tag all the time.
+
+6.) lets see some block and inline elements
+
+block elements take up the whole space from left to right.
+
+inline elements take only that much space which is required.
