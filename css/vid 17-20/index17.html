@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS selectors</title>
+    <style>
+      /* #element selector */
+      h1,
+      div {
+        text-align: center;
+        color: blueviolet;
+      }
+
+      /* class selector */
+      .greenpara {
+        text-align: right;
+        color: pink;
+        background-color: green;
+      }
+
+      /* universal selector */
+      *{
+        background-color: black;
+        color: azure;
+        text-align: left;
+      }
+
+      /* id selector */
+      #someid {
+        text-align: center;
+        color: red;
+      }
+
+      /* child selector */
+      div > p {
+        text-align: center;
+        color: red;
+        background-color: white;
+      }
+
+      div p {
+        text-align: right;
+        color: blue;
+      }
+      #someid:hover {
+        background-color: azure;
+      }
+      a:visited {
+        color: green;
+      }
+      a:active {
+        color: black;
+      }
+      a.highlight:hover {
+        color: #ff0000;
+      }
+    </style>
+  </head>
+
+  <body>
+    foo 
+    <h1>today we'll learn about css selectors</h1>
+    <p class="greenpara">this is a paragraph element</p>
+    <span> this is span element</span>
+    <article id="someid">this is article element.</article>
+    <p>this is 2nd para element</p>
+    <p class="greenpara">this is third para element</p>
+    <div class="someclass">
+      this is some div element.
+      <p>this is a child paragraph inside some div element.</p>
+      <article>
+        <p>
+          this is a para element inside article element inside some div element.
+          so this is a descendant of div element.
+        </p>
+      </article>
+      lets put some links inside this div element.<br />
+      <a class="highlight" href="https://www.facebook.com">facebook website</a>
+      <a class="highlight" href="https://www.wikipedia.org">wikipedia</a>
+      <a href="https://www.youtube2.com">youtube2</a>
+    </div>
+    <div id="cartoon">
+      wow now i can create some element with ids using shortcuts.
+    </div>
+  </body>
+</html>
